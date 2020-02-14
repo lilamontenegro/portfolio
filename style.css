@@ -3,15 +3,58 @@
     padding:0px;
   }
 
+@font-face {
+    font-family: cursiva;
+    src: url(Fontes/The\ Yoshi.ttf);
+}
+
 h1 {
     margin-top: 2%;
     text-align: center;
-}
-h2 {
-    text-align: center;
+    font-family: cursiva;
+    font-size: 200%;
 }
 .cubo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
+    background-color: dimgray;
+  }
+
+li {
+    display: inline;}
+
+li a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}    
+
+li a:hover {
+    background-color: #111;
+  }
+
+/*pags extras */ 
+#pages {
+    float: right;
+  border-radius: 4px;
+  padding: 5px;
+  width: 120px;
+  margin-right: 24%;
+  margin-top: -8%;
+}
+#pageX{
+    margin-top:7%;
 }
